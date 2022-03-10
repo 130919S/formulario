@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulário.css" media="">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <div class="campo">
+        <h1 id= "title">Cadastro</h1>
+        <p id="subtitle"><b>Preencha o formulário para sabermos um pouco mais sobre você :)</b></p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label form="nome e sobrenome"><b>Nome e Sobrenome</b></label>
+                <input type="text" name="nome e sobrenome" id="nome e sobrenome" required>
+            </div>
+            <div class="campo">
+                <label form="idade"><b>Idade</b></label>
+                <input type="text" name="idade" id="idade" required>
+            </div>
+        <div class="campo">
+            <label form="e-mail"><b>E-mail</b></label>
+            <input type="e-mail" name="e-mail" id="e-mail" required>
+
+        </div>
+
+        </fieldset class="grupo">
+        <div id="check">
+
+        <label><b>Em qual período da faculdade você está cursando?<b></label>
+        <label>
+            <br>
+            <input type="radio" name="periodo" value="1° Semestre">1° Semestre
+        </label>
+        <label>
+            <input type="radio" name="periodo" value="2° Semestre">2° Semestre
+        </label>
+        <label>
+            <input type="radio" name="periodo"value="3° Semestre">3° Smestre 
+        </label>
+        <label>
+            <input type="radio" name="periodo"value="4° Semestre">4° Semestre
+        </label>
+        <label>
+            <input type="radio" name="periodo"value="5° Semestre">5° Semestre
+        </label>
+        <label>
+            <input type="radio" name="periodo"value="6° Semestre">6° Semestre
+        </label>
+        <label>
+            <input type="radio" name="periodo"value="7° Semestre">7° Semestre
+        </label>
+        <label>
+            <input type="radio" name="periodo"value="8° Semestre">8° Semestre
+        </label>
+
+        <div class="campo">
+            <br>
+
+        </div>
+        <br>
+        <div class="campo">
+            <label><b> Qual area você tem mais conhecimento? </b></label>
+            <input type="text" name="trabalho" id="quantidade">
+        </div>
+        <br>
+        <label><b> </b></label>
+        <label>
+            <input type="radio" name="sim"value="sim">Sim
+        </label>
+        <label>
+            <input type="radio" name="não"value="não">Não
+        </label>
+        <div class="campo">
+            <br>
+            
+        </div>
+        <div class="campo">
+            <label><b>Quantas linguagens de programação você conhece?</b></label>
+            <select id= "experiência">
+                <option selected disabled value="">Selecione </option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>10+</option>
+
+
+            </select>
+
+        </div>
+
+        <br>
+
+        <div class="campo">
+        <label><b></b>Você pratica diariamente?</b></label>
+        <label>
+            <input type="radio" name="sim"value=sim>Sim
+        </label>
+        <label>
+            <input type="radio" name="não"value=não>Não
+        </label>
+    </div>
+
+    <div class="campo">
+
+        <br>
+
+        <label><b>Quantos computadores possuem na sua casa?</b></label>
+        <label>
+            <input type="radio" name="1"value='1'>1
+        </label>
+        <label>
+            <input type="radio" name="2"value="2">2
+        </label>
+        <label>
+            <input type="radio" name="3+"value="3+">3+
+        </label>
+    </div>
+
+    <div class="campo">
+
+    <br></b>
+
+    
+        <label><b>Qual o seu maior sonho dentro da area de desenvolvimento?</b></label>
+        <label>
+            <textarea row= 6 style="width:26em" id="experience" name="sonho" 
+         type="text" name="sonho" id="sonho"> </textarea>
+        </label>
+
+
+    </div>
+
+    <br>
+
+<button class="botao" type= "submit"> concluido </button>
+
+    </form>
+    
+</body>
+</html>
